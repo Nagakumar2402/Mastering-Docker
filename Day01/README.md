@@ -88,6 +88,9 @@ Inspect a container: docker inspect app1
 Port forwarding: docker run --rm -d --name app1 -p 8000:80 nginx:latest
 
 View logs: docker logs app1 -f
+cd /var/lib/docker/container/<container>
+cat any.log | (jq)[ sudo apt-get install jq]
+
 
 
    
